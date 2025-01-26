@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.beccd45d.css",
+    "main.js": "/static/js/main.664c5a42.js",
+    "static/media/venu madhav-mm1.png": "/static/media/venu madhav-mm1.55ba14ee3a7762348609.png",
+    "static/media/work3.jpeg": "/static/media/work3.841d9319189b88144a48.jpeg",
+    "static/media/work1.jpg": "/static/media/work1.179ecc220f33a6a65cc0.jpg",
+    "static/media/venu madhav cv.pdf": "/static/media/venu madhav cv.df14620ab98f2f5a01af.pdf",
+    "static/media/work4.png": "/static/media/work4.e0c9dadd6d4ef047d0f0.png",
+    "static/media/work2.png": "/static/media/work2.0e675e3382da16b32fd1.png",
+    "index.html": "/index.html",
+    "main.beccd45d.css.map": "/static/css/main.beccd45d.css.map",
+    "main.664c5a42.js.map": "/static/js/main.664c5a42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.beccd45d.css",
+    "static/js/main.664c5a42.js"
+  ]
+}
