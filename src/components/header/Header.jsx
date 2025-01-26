@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./header.css";
 
-const header = () => {
+const Header = () => {
     const[Toggle, showmenu] = useState(false);
   return (
     <header className='header'>
@@ -48,4 +48,4 @@ const header = () => {
   );
 };
 
-export default header
+export default Header
