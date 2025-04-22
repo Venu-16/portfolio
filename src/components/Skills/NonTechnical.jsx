@@ -1,13 +1,13 @@
 import React from 'react';
 
-const Backend = () => {
+const NonTechnical = () => {
   const skills = [
-    ["PHP", "Basic"],
-    ["Node.js", "Basic"],
-    ["Java", "Intermediate"],
-    ["MySQL", "Intermediate"],
-    ["Python", "Intermediate"],
-    ["SQL", "Intermediate"],
+    ['Communication', 'Advanced'],
+    ['Teamwork', 'Advanced'],
+    ['Problem Solving', 'Intermediate'],
+    ['Time Management', 'Intermediate'],
+    ['Leadership', 'Basic'],
+    ['Adaptability', 'Advanced'],
   ];
 
   const column1 = skills.slice(0, 3);
@@ -15,7 +15,7 @@ const Backend = () => {
 
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Backend Developer</h3>
+      <h3 className="skills__title">Non-Technical Skills</h3>
       <div className="skills__box">
         {[column1, column2].map((col, index) => (
           <div className="skills__group" key={index}>
@@ -35,4 +35,4 @@ const Backend = () => {
   );
 };
 
-export default Backend;
+export default NonTechnical;

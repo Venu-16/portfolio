@@ -1,21 +1,19 @@
 import React from 'react';
 
-const Frontend = () => {
+const TechnicalSkills = () => {
   const skills = [
-    ["HTML", "Basic"],
-    ["CSS", "Intermediate"],
-    ["JavaScript", "Intermediate"],
-    ["Bootstrap", "Intermediate"],
-    ["Git", "Intermediate"],
-    ["React", "Intermediate"],
+    ['PHP', 'Basic'],
+    ['Node js', 'Basic'],
+    ['Java', 'Intermediate'],
+    ['MySQL', 'Intermediate'],
   ];
 
-  const column1 = skills.slice(0, 3);
-  const column2 = skills.slice(3, 6);
+  const column1 = skills.slice(0, 2);
+  const column2 = skills.slice(2, 4);
 
   return (
     <div className="skills__content">
-      <h3 className="skills__title">Frontend Developer</h3>
+      <h3 className="skills__title">Technical Skills</h3>
       <div className="skills__box">
         {[column1, column2].map((col, index) => (
           <div className="skills__group" key={index}>
@@ -35,4 +33,4 @@ const Frontend = () => {
   );
 };
 
-export default Frontend;
+export default TechnicalSkills;
