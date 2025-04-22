@@ -1,0 +1,53 @@
+.portfolio__container {
+    display: flex;
+    justify-content: center;     /* ✅ Center horizontally */
+    align-items: center;         /* ✅ Optional, center vertically */
+    gap: 2rem;
+    flex-wrap: nowrap;           /* Keep in one row */
+    padding: 2rem 0;
+    overflow-x: auto;            /* ✅ For small screens */
+  }
+  
+  
+  .portfolio__item {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;
+    min-width: 300px;
+    flex-shrink: 0;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .portfolio__img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio__title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .portfolio__desc {
+    font-size: 0.875rem;
+    color: gray;
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio__button {
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .portfolio__button:hover {
+    background-color: #333;
+  }
+  
