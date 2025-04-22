@@ -55,11 +55,11 @@ const Contact = () => {
       <span className="section__subtitle">Contact me</span>
 
       <div className="contact__container container grid">
-        {/* Left side - Contact options */}
+        
         <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
           <div className="contact__cards grid">
-            {/* Email Card */}
+            
             <div className="contact__card">
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">venumadhav2216@gmail.com</span>
@@ -68,18 +68,18 @@ const Contact = () => {
               </a>
             </div>
 
-            {/* Messenger Card */}
+            
             <div className="contact__card">
               <h3 className="contact__card-title">Telegram</h3>
               <span className="contact__card-data">@venumadhav</span>
-              <a href="https://m.me/venumadhav" target="_blank" rel="noreferrer" className="contact__button">
+              <a href="https://t.me/vm_mt" target="_blank" rel="noreferrer" className="contact__button">
                 Chat with me <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
           </div>
         </div>
 
-        {/* Right side - Contact form */}
+        
         <div className="contact__content">
           <h3 className="contact__title">Write me your message</h3>
           <form className="contact__form">
