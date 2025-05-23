@@ -4,19 +4,19 @@ import './portfolio.css';
 const Portfolio = () => {
   const projects = [
     {
-      title: "YouTube Ad View Predictor",
-      description: "Predicts ad views using ML model",
-      link: "#"
+      title: "LifeConnect",
+      description: "webapp for doctor appointment booking and blood donation portal",
+      link: ""
     },
     {
       title: "AI Health Bot",
       description: "Diagnoses symptoms using AI + NFT",
-      link: "#"
+      link: "https://github.com/Venu-16/AI-Health-Bot-Medical-NFTs-on-Aptos-"
     },
     {
-      title: "Task Scheduler (Weather-based)",
-      description: "Schedules tasks depending on weather",
-      link: "#"
+      title: "Ai-Travel-Planner",
+      description: "Generates Travelling Plan depending on your intrests",
+      link: "https://github.com/Venu-16/ai-travel-planner"
     }
   ];
 

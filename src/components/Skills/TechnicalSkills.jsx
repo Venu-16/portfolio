@@ -2,14 +2,16 @@ import React from 'react';
 
 const TechnicalSkills = () => {
   const skills = [
-    ['PHP', 'Basic'],
-    ['Node js', 'Basic'],
     ['Java', 'Intermediate'],
+    ['HTMl','Intermediate'],
+    ['CSS','Intermediate'],
+    ['React js', 'Intermediate'],
+    ['Node js', 'Basic'],
     ['MySQL', 'Intermediate'],
   ];
 
-  const column1 = skills.slice(0, 2);
-  const column2 = skills.slice(2, 4);
+  const column1 = skills.slice(0, 3);
+  const column2 = skills.slice(3, 6);
 
   return (
     <div className="skills__content">

@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
-import AboutImg from "../../Assets/venu madhav-mm1.png";
-import CV from "../../Assets/venu madhav cv.pdf";
+import AboutImg from "../../Assets/venu .jpg";
+import CV from "../../Assets/Maile_Venu_Madhav_SDE.pdf";
 import Info from './info';
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
         <Info />
 
         <p className="about_description">
-            About m
+            About me
         </p>
 
         <a download="" href={CV} className="button buttom-flex">Download CV
