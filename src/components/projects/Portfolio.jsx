@@ -4,13 +4,13 @@ import './portfolio.css';
 const Portfolio = () => {
   const projects = [
     {
-      title: "LifeConnect",
-      description: "webapp for doctor appointment booking and blood donation portal",
-      link: ""
+      title: "Zoom Attendance Tracker",
+      description: "Built Python-Flask tool using Zoom, Sheets APIs for auto attendance tracking and real-time reports.",
+      link: "https://github.com/Venu-16/Zoom-Attendance-tracker"
     },
     {
       title: "AI Health Bot",
-      description: "Diagnoses symptoms using AI + NFT",
+      description: "Created health chatbot using AI, NLP, voice input, and NFT records on Aptos blockchain.",
       link: "https://github.com/Venu-16/AI-Health-Bot-Medical-NFTs-on-Aptos-"
     },
     {

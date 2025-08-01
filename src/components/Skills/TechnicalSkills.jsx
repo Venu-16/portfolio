@@ -3,10 +3,10 @@ import React from 'react';
 const TechnicalSkills = () => {
   const skills = [
     ['Java', 'Intermediate'],
-    ['HTMl','Intermediate'],
-    ['CSS','Intermediate'],
+    ['Web Technologies','Intermediate'],
+    ['Python','Intermediate'],
     ['React js', 'Intermediate'],
-    ['Node js', 'Basic'],
+    ['Machine Learning', 'Intermediate'],
     ['MySQL', 'Intermediate'],
   ];
 

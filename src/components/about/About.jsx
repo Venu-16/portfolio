@@ -1,8 +1,9 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../Assets/venu .jpg";
-import CV from "../../Assets/Maile_Venu_Madhav_SDE.pdf";
+import CV from "../../Assets/Maile Venu Madhav (2).pdf";
 import Info from './info';
+// import ScrollDown from '..//about/ScrollDown';
 
 const About = () => {
   return (
@@ -47,7 +48,9 @@ const About = () => {
                 ></path>
               </svg>
         </a>
+        
     </div>
+    {/* <ScrollDown /> */}
     </div>
     </section>
   )
