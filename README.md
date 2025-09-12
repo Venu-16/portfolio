@@ -1,4 +1,4 @@
 # portfolio
 
 
-deployed link:  https://venu-16.github.io/portfolio/
+deployed link:  https://portfolio-lovat-sigma-48.vercel.app/
