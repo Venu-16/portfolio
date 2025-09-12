@@ -4,18 +4,18 @@ import './portfolio.css';
 const Portfolio = () => {
   const projects = [
     {
-      title: "Zoom Attendance Tracker",
-      description: "Built Python-Flask tool using Zoom, Sheets APIs for auto attendance tracking and real-time reports.",
-      link: "https://github.com/Venu-16/Zoom-Attendance-tracker"
+      title: "Medical Appointment Booking System",
+      description: "Currently Working AI-powered medical Appointment scheduler with LangGraph, LangChain, Gemini, automating booking, insurance, and reminders.",
+      link: "https://github.com/Venu-16/Medical-Appointment-Scheduling-AI-Agent"
     },
     {
       title: "AI Health Bot",
-      description: "Created health chatbot using AI, NLP, voice input, and NFT records on Aptos blockchain.",
+      description: "Created a health chatbot using AI, NLP, and voice input and integrated NFT minting on the Aptos blockchain for secure medical records.",
       link: "https://github.com/Venu-16/AI-Health-Bot-Medical-NFTs-on-Aptos-"
     },
     {
       title: "Ai-Travel-Planner",
-      description: "Generates Travelling Plan depending on your intrests",
+      description: "Developed an AI-powered travel planner that generates personalized itineraries tailored to individual user interests.",
       link: "https://github.com/Venu-16/ai-travel-planner"
     }
   ];
