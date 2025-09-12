@@ -7,7 +7,7 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/projects/Portfolio';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-
+import CodingProfiles from './components/Coding Profiles/profiles';
 
 const App = () => {
   return (
@@ -15,6 +15,7 @@ const App = () => {
    <Header />
    <main className='main'>
     <Home />
+    <CodingProfiles />
     <About />
     <Skills />
     <Projects />
