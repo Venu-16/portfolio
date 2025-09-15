@@ -16,7 +16,7 @@ const info = () => {
         </div>
         <div className="about__box">
             <i className="bx bx-heart about__icon"></i>
-            <h3 className="about__title">Intrest</h3>
+            <h3 className="about__title">Interest</h3>
             <span className="about__subtitle">AI, ML, GEN Ai & DSA</span>
         </div>
     </div>
