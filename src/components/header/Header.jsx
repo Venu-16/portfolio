@@ -16,11 +16,7 @@ const Header = () => {
                                 <i className="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#coding" className="nav__link">
-                                <i className="uil uil-brackets-curly nav__icon"></i> Coding
-                            </a>
-                        </li>
+                        
                         <li className="nav__item">
                             <a href="#about" className="nav__link">
                                 <i className="uil uil-user nav__icon"></i> About
@@ -32,7 +28,11 @@ const Header = () => {
                                 <i className="uil uil-file-alt nav__icon"></i> Skills
                             </a>
                         </li>
-
+                        <li className="nav__item">
+                            <a href="#coding" className="nav__link">
+                                <i className="uil uil-brackets-curly nav__icon"></i> Coding
+                            </a>
+                        </li>
                         <li className="nav__item">
                             <a href="#portfolio" className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i> Portfolio

@@ -10,11 +10,25 @@
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
-    padding: 1.5rem;
-    width: 300px;
+    padding: 2rem;
+    width: 350px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s;
+    overflow: hidden;
+  }
+  
+  .portfolio__image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio__item:hover .portfolio__image {
+    transform: scale(1.05);
   }
   
   .portfolio__item:hover {
@@ -22,15 +36,16 @@
   }
   
   .portfolio__title {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
   }
   
   .portfolio__desc {
-    font-size: 0.95rem;
+    font-size: 1rem;
     color: #555;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
   }
   
   .portfolio__button {

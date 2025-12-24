@@ -1,22 +1,28 @@
 import React from 'react';
 import './portfolio.css';
+import medicalImage from '../../Assets/medical-appointment.png';
+import jobImage from '../../Assets/fake-job-detection.png';
+import travelImage from '../../Assets/travel-planner.png';
 
 const Portfolio = () => {
   const projects = [
     {
       title: "Medical Appointment Booking System",
-      description: "Currently Working AI-powered medical Appointment scheduler with LangGraph, LangChain, Gemini, automating booking, insurance, and reminders.",
-      link: "https://github.com/Venu-16/Medical-Appointment-Scheduling-AI-Agent"
+      description: "AI-powered medical appointment scheduler with LangGraph, LangChain, and Gemini for automated booking and reminders.",
+      link: "https://github.com/Venu-16/Medical-Appointment-Scheduling-AI-Agent",
+      image: medicalImage
     },
     {
-      title: "AI Health Bot",
-      description: "Created a health chatbot using AI, NLP, and voice input and integrated NFT minting on the Aptos blockchain for secure medical records.",
-      link: "https://github.com/Venu-16/AI-Health-Bot-Medical-NFTs-on-Aptos-"
+      title: "Fake Job Detection",
+      description: "NLP-based ML model detecting fraudulent job postings using TF-IDF embeddings with LIME interpretability.",
+      link: "https://github.com/Venu-16/Fake-Job-Postings-Detection-",
+      image: jobImage
     },
     {
       title: "Ai-Travel-Planner",
-      description: "Developed an AI-powered travel planner that generates personalized itineraries tailored to individual user interests.",
-      link: "https://github.com/Venu-16/ai-travel-planner"
+      description: "AI-powered travel planner generating personalized itineraries based on user interests.",
+      link: "https://github.com/Venu-16/ai-travel-planner",
+      image: travelImage
     }
   ];
 
@@ -28,6 +34,7 @@ const Portfolio = () => {
       <div className="portfolio__container">
         {projects.map((project, index) => (
           <div className="portfolio__item" key={index}>
+            <img src={project.image} alt={project.title} className="portfolio__image" />
             <h3 className="portfolio__title">{project.title}</h3>
             <p className="portfolio__desc">{project.description}</p>
             <a href={project.link} className="portfolio__button" target="_blank" rel="noreferrer">
