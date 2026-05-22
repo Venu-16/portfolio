@@ -68,3 +68,22 @@
     }
   }
   
+
+  .portfolio__item {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portfolio__button {
+  margin-top: auto;
+}

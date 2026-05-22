@@ -1,7 +1,7 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../Assets/venu .jpg";
-import CV from "../../Assets/M_Venu_Madhav.pdf";
+import CV from "../../Assets/VenuMadhavMaile.pdf";
 import Info from './info';
 // import ScrollDown from '..//about/ScrollDown';
 

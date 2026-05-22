@@ -1,28 +1,31 @@
 import React from 'react';
 import './portfolio.css';
-import medicalImage from '../../Assets/medical-appointment.png';
-import jobImage from '../../Assets/fake-job-detection.png';
-import travelImage from '../../Assets/travel-planner.png';
-
+import reposense from "../../Assets/reposense.png";
+import aiinterview from "../../Assets/aiinterview.png";
+import herbvision from "../../Assets/herbvision.png";
 const Portfolio = () => {
   const projects = [
     {
-      title: "Medical Appointment Booking System",
-      description: "AI-powered medical appointment scheduler with LangGraph, LangChain, and Gemini for automated booking and reminders.",
-      link: "https://github.com/Venu-16/Medical-Appointment-Scheduling-AI-Agent",
-      image: medicalImage
+      title: "RepoSense AI – GitHub Repository Chatbot",
+      description: `Developed a full-stack AI application using FastAPI, React, LangChain, and FAISS to enable context-aware querying of GitHub repositories via Retrieval-Augmented Generation (RAG).`,
+
+      link: "https://github.com/Venu-16/RepoSense-AI",
+      image: reposense
     },
     {
-      title: "Fake Job Detection",
-      description: "NLP-based ML model detecting fraudulent job postings using TF-IDF embeddings with LIME interpretability.",
-      link: "https://github.com/Venu-16/Fake-Job-Postings-Detection-",
-      image: jobImage
+      title: "AI Interview Assistant ",
+      description: `Developed an AI-powered interview assistant using Streamlit, LangChain, and Groq, implementing an
+end-to-end pipeline for question generation, speech-to-text processing, answer evaluation, and feedback
+generation.`,
+      link: "https://github.com/Venu-16/AI-Interview-Assistant",
+      image: aiinterview
     },
     {
-      title: "Ai-Travel-Planner",
-      description: "AI-powered travel planner generating personalized itineraries based on user interests.",
-      link: "https://github.com/Venu-16/ai-travel-planner",
-      image: travelImage
+      title: "Herb Vision",
+      description: `Built a full-stack AI application for medicinal plant recognition using React and Flask, integrating deep
+learning models (DenseNet121, MobileNetV2) for real-time image classification.`,
+      link: "https://github.com/Venu-16/HERB-VISION",
+      image: herbvision
     }
   ];
 
